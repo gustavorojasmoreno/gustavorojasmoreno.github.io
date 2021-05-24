@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Andale Mono';
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:darkolivegreen;
+}
+
+#header{
+    width: 100vw;
+    height: 14vh;
+    font-size: 4vw;
+    text-align: center;
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  grid-template-rows: 86vh;
+}
+
+.barra{
+    margin-left: 15px;
+    height: 100%;
+}
+button{
+    margin: 20px 0px 0px 0px;
+    border: 1px solid black;
+    padding: 6px;
+    width:40%;
+    text-align:center;
+    background-color: white;
+}
